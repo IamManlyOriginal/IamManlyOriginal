@@ -1,33 +1,9 @@
+<div align="center">
+
 # 👋 Привет, я Александр
 
 ### Начинающий веб-разработчик и дизайнер
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C6FF00&center=true&vCenter=true&width=500&lines=Делаю+сайты+с+нуля;Frontend+%26+дизайн;Next.js+%2B+Tailwind+CSS)](https://git.io/typing-svg)
 
-## 🚀 Обо мне
-
-- 🎨 Делаю сайты и их дизайн **с нуля** — от макета до готового продукта
-- 🧠 Люблю **чёткие ТЗ** и всегда следую им
-- 💡 Креативный подход к каждой задаче
-- 🌱 Постоянно учусь: осваиваю **Next.js** и современный фронтенд
-- ⚡ Моё портфолио: [iammanlyoriginal.github.io/Portfolio](https://iammanlyoriginal.github.io/Portfolio/)
-
----
-
-## 🛠️ Стек технологий
-
-- **Frontend:** HTML5, CSS3, JavaScript, TypeScript
-- **Фреймворки:** React, Next.js
-- **Стили:** Tailwind CSS
-- **Инструменты:** Git, GitHub, VS Code
-
----
-
-## 📫 Связаться со мной
-
-- **Telegram:** [@Shuuric](https://t.me/Shuuric)
-- **GitHub:** [IamManlyOriginal](https://github.com/IamManlyOriginal)
-
----
-
-### 💚 Спасибо за визит!
+</div>
