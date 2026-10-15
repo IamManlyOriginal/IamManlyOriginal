@@ -1,54 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="140" viewBox="0 0 760 140">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C6FF00"/>
-      <stop offset="45%" stop-color="#00E5FF"/>
-      <stop offset="100%" stop-color="#FF00E5"/>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="50%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#FF3D71"/>
     </linearGradient>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#161B22"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
 
     <clipPath id="reveal">
-      <rect x="0" y="0" width="0" height="220">
-        <animate attributeName="width" from="0" to="760" dur="4.5s" begin="1.5s" fill="freeze"/>
+      <rect x="0" y="0" width="0" height="140">
+        <animate attributeName="width" from="0" to="720" dur="3s" begin="1s" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
 
-  <rect width="820" height="220" rx="14" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.5"/>
+  <rect width="760" height="140" rx="10" fill="#0D1117"/>
 
-  <rect width="820" height="42" rx="14" fill="#161B22"/>
-  <rect y="28" width="820" height="14" fill="#161B22"/>
-
-  <circle cx="25" cy="21" r="7" fill="#FF5F56"/>
-  <circle cx="50" cy="21" r="7" fill="#FFBD2E"/>
-  <circle cx="75" cy="21" r="7" fill="#27C93F"/>
-
-  <text x="410" y="27" fill="#7D8590" font-family="monospace" font-size="13" text-anchor="middle">~/portfolio — bash</text>
-
-  <line x1="0" y1="42" x2="820" y2="42" stroke="#30363D" stroke-width="1"/>
-
-  <text x="30" y="88" font-family="'Courier New', monospace" font-size="16">
-    <tspan fill="#C6FF00">alex</tspan><tspan fill="#7D8590">@</tspan><tspan fill="#00E5FF">iammanlyoriginal</tspan><tspan fill="#7D8590">:~$ </tspan><tspan fill="#E6EDF3">cat philosophy.txt</tspan>
+  <!-- Строка-приглашение -->
+  <text x="30" y="50" fill="#E6EDF3" font-family="'SF Mono', Consolas, monospace" font-size="14">
+    <tspan fill="#A855F7">alex</tspan><tspan fill="#666">@</tspan><tspan fill="#FF3D71">dev</tspan><tspan fill="#666">:~$ </tspan><tspan fill="#E11D48">echo "philosophy"</tspan>
   </text>
 
+  <!-- Фраза с анимацией печати -->
   <g clip-path="url(#reveal)">
-    <text x="30" y="160" fill="url(#grad)" font-family="'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="700" filter="url(#glow)">
+    <text x="30" y="105" fill="url(#textGrad)" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" font-weight="600">
       如果我和其他人一样，那么谁会像我一样？
     </text>
   </g>
 
-  <rect x="30" y="132" width="4" height="38" fill="#C6FF00">
-    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="x" from="30" to="720" dur="4.5s" begin="1.5s" fill="freeze"/>
+  <!-- Курсор -->
+  <rect x="30" y="87" width="2" height="26" fill="#E11D48">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="x" from="30" to="670" dur="3s" begin="1s" fill="freeze"/>
   </rect>
 </svg>
